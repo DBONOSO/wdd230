@@ -1,0 +1,40 @@
+header {
+ display: flex;
+ background-color: #244074;
+ text-decoration: none;
+ padding: 7px 100px;
+ border-radius: 40px;
+ color: rgb(251, 252, 253);
+}
+
+#image {
+ margin-left: 10px;
+}
+
+#name {
+ font-size: 50px;
+ margin-left: 150px;
+}
+
+#assigment {
+ font-size: 25px;
+ margin-left: 20px;
+}
+
+#linklist {
+ margin-left: 10px;
+ font-size: 23px;
+}
+
+footer {
+  background-color: #244074;
+  text-decoration: none;
+  padding: 7px 100px;
+  border-radius: 40px;
+  color: rgb(251, 252, 253);
+  font-size: 25px;
+}
+
+#text_footer {
+ margin-left: 30%;
+}
