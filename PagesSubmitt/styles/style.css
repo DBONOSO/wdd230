@@ -1,3 +1,7 @@
+body {
+  width: 80%;
+  margin: auto ;
+}
 header {
  display: flex;
  background-color: #244074;
@@ -12,7 +16,7 @@ header {
 }
 
 #name {
- font-size: 50px;
+ font-size: 40px;
  margin-left: 220px;
 }
 
