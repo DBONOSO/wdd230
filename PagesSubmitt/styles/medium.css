@@ -1,0 +1,17 @@
+@media only screen and (min-width: 52.5em) {
+ h1 {
+  font-size: 4.5rem;
+ }
+
+ h2 {
+  font-size: 3.5rem;
+ }
+  header {
+   display: flex;
+   background-color: #244074;
+   text-decoration: none;
+   padding: 1px 100px;
+   border-radius: 40px;
+   color: rgb(251, 252, 253);
+  }
+}

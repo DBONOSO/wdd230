@@ -1,3 +1,4 @@
+@media screen and (min-width: 41em) {
 body {
  font-size: 18px;
  line-height: 1.5;
@@ -28,4 +29,5 @@ ul {
 
 ol {
  list-style-type: lower-roman;
+}
 }
