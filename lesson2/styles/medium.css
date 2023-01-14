@@ -1,0 +1,9 @@
+@media only screen and (max-width: 700px) {
+  main {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .alignment:nth-child(2n+1):last-child {
+    grid-column: 1/3;
+  }
+}
