@@ -47,8 +47,8 @@ nav a {
 }
 
 nav a:hover {
- background-color: #669BBC;
- color: black;
+ background-color: #780000;
+ color: white;
 }
 
 h1,
@@ -119,15 +119,15 @@ section {
 }
 
 .accent1 {
- background-color: #669BBC;
+ background-color: #7d82b8;
 }
 
 .accent2 {
- background-color: #2a4657;
+ background-color: #780000;
 }
 
 .color {
- background-color: #2a4657;
+ background-color: #7d82b8;
 }
 
 p,

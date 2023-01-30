@@ -27,7 +27,7 @@ nav ul li a {
 
 
 nav ul li a:hover {
-  background-color: #1c2f3a;
+  background-color: #003049;
   color: white;
 }
 
@@ -42,7 +42,7 @@ nav button {
   background: transparent;
   border: 1px solid RGBA(0, 0, 0, 0.5);
   font-size: 2.5rem;
-  color: #305268 ;
+  color: #7d82b8 ;
 }
 
 nav ul {
@@ -126,7 +126,7 @@ footer div.contact-info {
   border-radius: 1em;
   border: 2px solid rgba(240, 5, 5, 0.03);
   padding: 10px;
-  background-color: #669BBC;
+  background-color: #7d82b8 ;
 }
 
 footer div.author {
@@ -213,7 +213,6 @@ ul.social img {
 .spotlight1,
 .spotlight2,
 .spotlight3 {
-  background-color:#ecf5ff;
   aspect-ratio: 3/1;
   padding: 1em;
 }
