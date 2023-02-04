@@ -6,14 +6,12 @@
 header {
   background-color: #FDF0D5;
   display: grid;
-  grid-template-columns: 1fr 3fr 1fr;
 
 }
 
 nav {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  
 }
 
 nav ul li a {
@@ -42,7 +40,7 @@ nav button {
   background: transparent;
   border: 1px solid RGBA(0, 0, 0, 0.5);
   font-size: 2.5rem;
-  color: #7d82b8 ;
+  color: #5B7A3C ;
 }
 
 nav ul {
@@ -51,7 +49,8 @@ nav ul {
 }
 
 nav ul.open {
-  display: block;
+  display: flex;
+  flex-direction: column;
 }
 
 
@@ -126,7 +125,7 @@ footer div.contact-info {
   border-radius: 1em;
   border: 2px solid rgba(240, 5, 5, 0.03);
   padding: 10px;
-  background-color: #7d82b8 ;
+  background-color: #5B7A3C ;
 }
 
 footer div.author {
@@ -148,7 +147,7 @@ a {
 
 a:hover {
   filter: brightness(150%);
-  background-color: #22485e;
+  background-color: #eee;
 }
 
 ul.social {
@@ -202,6 +201,9 @@ ul.social img {
   background-size: cover;
   background-position: center;
 
+}
+img {
+  width: 50%;
 }
 
 

@@ -1,4 +1,12 @@
-@media only screen and (min-width: 65em) {
+@media only screen and (min-width: 61em) {
+ nav {
+   grid-column: 2/3;
+   grid-row: 2/4;
+   padding: 1em;
+  }
+ header{
+  text-align: center;
+ }
  body {
   margin: 10px auto;
  }
@@ -9,8 +17,14 @@
 
  nav {
   display: flex;
-  flex-direction: row;
+  justify-content: center;
  }
+ nav button {
+ display: none;
+ }
+ nav ul#primaryNav {
+ display: flex;
+}
 
  .burger-flex {
   width: 100%;
@@ -107,7 +121,7 @@
 
 #hamburgerBtn span:nth-child(2) {
  display: none;
- font-family: var(--heading-font);
+ font-family: #eee;
 }
 
 #hamburgerBtn.open span:nth-child(1) {
