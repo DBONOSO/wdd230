@@ -35,3 +35,12 @@ let fullDate = new Intl.DateTimeFormat("en-UK", { dateStyle: "full" }).format(
 	k
 );
 document.getElementById("currentDate").textContent = fullDate;
+
+
+if (k.getDay() == 1 || k.getDay() == 2){
+  document.querySelector(".banner-one").classList.toggle("banner-shown");
+
+  document.querySelector(".banner-close").addEventListener('click', function() {
+  this.closest(".banner-one").style.display = "none";
+});
+};

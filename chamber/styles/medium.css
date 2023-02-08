@@ -1,6 +1,7 @@
 @media only screen and (min-width: 30em) {
  nav{
   margin: 1px;
+  grid-row: 6/6;
  }
  img {
   width: 250px;
@@ -29,7 +30,7 @@
   }
  
   .header-date {
-   grid-column: 2/3;
+   grid-row: 6/6;
  
   }
  main {

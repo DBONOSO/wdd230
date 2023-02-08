@@ -9,7 +9,7 @@ button.addEventListener('click', () => {
 
   listItem.textContent = myChapter;
   const deleteButton = document.createElement('button');
-  deleteButton.textContent = 'x';
+  deleteButton.textContent = '❌';
 
   listItem.appendChild(deleteButton);
   list.appendChild(listItem);

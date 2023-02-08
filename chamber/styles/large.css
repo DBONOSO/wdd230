@@ -1,11 +1,11 @@
 @media only screen and (min-width: 61em) {
  nav {
-   grid-column: 2/3;
-   grid-row: 2/4;
+  grid-row: 5/5;
    padding: 1em;
   }
  header{
   text-align: center;
+  align-items: center;
  }
  body {
   margin: 10px auto;
@@ -15,10 +15,9 @@
   font-size: 3em;
  }
 
- nav {
-  display: flex;
-  justify-content: center;
- }
+  nav {
+   grid-column: 1/2;
+  }
  nav button {
  display: none;
  }
