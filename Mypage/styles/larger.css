@@ -1,5 +1,6 @@
 @media only screen and (min-width: 52.5em) {
  h1 {
+  color: white;
   font-size: 4.5rem;
  }
 
@@ -7,17 +8,67 @@
   font-size: 3.5rem;
  }
 
+ nav {
+   grid-row: 5/5;
+   padding: 1em;
+ }
+
  header {
-  display: flex;
-  padding: 1px 220px;
-  border-radius: 40px;
+   text-align: center;
+   align-items: center;
+ }
+
+ body {
+   margin: 10px auto;
+ }
+
+ header h1 {
+   font-size: 3em;
+ }
+
+ nav {
+   grid-column: 1/2;
+ }
+
+ nav button {
+   display: none;
+ }
+
+ nav ul#primaryNav {
+   display: grid;
+ }
+
+ .burger-flex {
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+ }
+
+ .burger-flex ul:nth-child(1) {
+   display: flex;
+   flex-direction: row;
 
  }
-  nav {
-   margin: 0 auto;
-   border-radius: 40px;
-   background-color: #bfd3e4;
-   color: rgb(0, 0, 0);
-  }
+
+ .burger-flex ul:nth-child(2) {
+   display: flex;
+   flex-direction: row;
+   width: 80px
+ }
+
+ .burger-flex li {
+   padding-left: 10px;
+   padding-right: 10px;
+ }
+
+ ul.social li {
+   padding: 0;
+ }
+
+ #burger-open,
+ #burger-close {
+   display: none;
+ }
   
 }
