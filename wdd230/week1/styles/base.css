@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 500;
+
+}
+
+img {
+ width: 100%;
+ height: auto;
+}
+
+body {
+ margin: 0 auto;
+ font-size: 1rem;
+ text-align: center;
+ background-color: #FDF0D5;
+ max-width: 1500px;
+}
+
+nav {
+ background-color: #003049;
+ text-align: center;
+ box-shadow: 0 0 30px rgb(17, 10, 10) inset;
+ display: flex;
+ flex-direction: column;
+ margin: 0 auto;
+ font-size: 1.8rem;
+
+
+}
+
+nav div {
+ flex: 1 1 auto;
+}
+
+nav a {
+ display: block;
+ color: white;
+ text-align: center;
+ padding: 10px;
+ text-decoration: none;
+
+}
+
+nav a:hover {
+ background-color: #5B7A3C;
+ ;
+ color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+ font-family: 'DM Serif Display', serif;
+ color: black;
+ padding: 10px;
+}
+
+main {
+ padding: 10px;
+}
+
+.colors {
+ width: 100%;
+
+ margin: 0 auto;
+}
+
+
+
+.colors td {
+ width: 25%;
+ height: 3em;
+
+
+}
+
+.primary {
+ background-color: #FDF0D5;
+ color: white;
+}
+
+.secondary {
+ background-color: #003049;
+}
+
+
+paragraph-font {
+ font-family: 'DM Serif Display', serif;
+}
+
+
+li {
+ margin: 1rem 0;
+ text-align: left;
+}
+
+p,
+ol {
+ padding: 10px;
+}
+
+section {
+ padding: 30px;
+}
+
+.primary {
+ background-color: #003049;
+ color: white;
+}
+
+.secondary {
+ background-color: #FDF0D5;
+}
+
+.accent1 {
+ background-color: #5B7A3C;
+}
+
+.accent2 {
+ background-color: #eee;
+}
+
+.color {
+ background-color: #5B7A3C;
+}
+
+p,
+li {
+ color: black;
+}
+
+li {
+ margin: 1rem 0;
+ text-align: left;
+}
+
+p,
+ol {
+ padding: 10px;
+}
+
+section {
+ padding: 30px;
+}
+
+.colors th {
+ background-color: #726161;
+ font-family: 'DM Serif Display',
+  serif;
+
+}
+
