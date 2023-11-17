@@ -6,7 +6,7 @@ const x = document.getElementById('hamburgerBtn');
 x.onclick=toggleMenu;
 
 
-//adding the account 
+//adding the visit count 
 
 function updateVisitCount() {
   let visitCount = parseInt(document.getElementById('visit-count').textContent);
