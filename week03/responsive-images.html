@@ -1,0 +1,34 @@
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="styles/responsive-image.css">
+ <title>Responsive</title>
+</head>
+<body>
+  <header>
+   <h1> Responsive image</h1>
+  </header>
+
+  <main>
+    <div class="hero">
+    <picture>
+     <source media="(max-width: 500px)" srcset="images/hero-small">
+     <source media="(max-width: 500px)" srcset="images/hero-medium">
+     <img src="images/hero-large.webp" alt="Buenos Aires temple" width="1500" height="750">
+    </picture>
+    </div>
+    <div class="image-container">
+     <img src="images/hero-small.webp" alt="Buenos Aires Templo" width="1000" height="500">
+     <img src="images/hero-medium.webp" alt="Buenos Aires Templo" width="500" height="350">
+    </div>
+
+    
+  <footer>
+         <p>©️ <span id="date2"></span> | David Bonoso | San Juan, Argentina</p>
+         <p>Last Update: <span id="date3"></span></p>
+  </footer>
+  <script src="scripts/date.js"></script>
+  </main>
+</body>
+</html>

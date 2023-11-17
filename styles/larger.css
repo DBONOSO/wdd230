@@ -9,9 +9,9 @@
  }
 
  nav {
-   grid-row: 5/5;
    padding: 1em;
  }
+
 
  header {
    text-align: center;
@@ -22,13 +22,7 @@
    margin: 10px auto;
  }
 
- header h1 {
-   font-size: 3em;
- }
 
- nav {
-   grid-column: 1/2;
- }
 
  nav button {
    display: none;
