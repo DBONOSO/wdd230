@@ -29,8 +29,12 @@
  }
 
  nav ul#primaryNav {
-   display: grid;
+   display: flex;
  }
+
+#primaryNav li a{
+  padding: 12px auto;
+}
 
  .burger-flex {
    width: 100%;

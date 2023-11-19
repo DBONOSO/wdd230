@@ -30,6 +30,8 @@ header img {
   grid-row: 4/4;
 }
 
+
+
 .banner-box{
   padding: 16px;
   max-width: 700px;
@@ -254,7 +256,6 @@ ul.social img {
 .join {
   background: #eee;
   text-align: center;
-  /*aspect-ratio: 3/1;  mistake*/
   border-radius: .5em;
   overflow: hidden;
   border: 0;
@@ -281,7 +282,7 @@ ul.social img {
 
 
 .spotlights {
-  aspect-ratio: unset;
+  width: 500px;
 }
 
 

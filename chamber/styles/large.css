@@ -11,6 +11,10 @@
   margin: 10px auto;
  }
 
+ img{
+  width: 100px, auto;
+  align-items: center;
+ }
  header h1 {
   font-size: 3em;
  }
@@ -59,7 +63,7 @@
  }
 
  main {
-  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-columns: 1fr  1fr;
  }
 
  .hero {
@@ -98,6 +102,9 @@
   grid-row: 1/4;
   aspect-ratio: unset;
  }
+ .spotlight {
+  width: 100px;
+ }
 
  .spotlight1 {
   grid-column: 1/2;
@@ -131,3 +138,6 @@
  display: block;
 
 } 
+picture {
+ width: 100%;
+}
