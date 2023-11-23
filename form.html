@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta name="author" content="David Bonoso">
+ <meta name="description" content="WDD 230 - Web Frontend Development">
+ 
+ <link rel="icon" href="images/favicon.ico">
+ <meta property="og:title" content=" Web Frontend Development Courses WDD 230" />
+ <meta property="og:type" content="image" />
+ <meta property="og:url" content="https://dbonoso.github.io/wdd230/index.html" />
+ <meta property="og:image"
+  content="https://dbonoso.github.io/wdd230/index.html" />
+ <title>Course Registration Form</title>
+ <link rel="stylesheet" href="styles/form.css">
+</head>
+<body>
+ <header>
+ </header>
+ <nav>
+ </nav>
+
+ <main>
+  <h1>Course Registration Form</h1>
+  <form action="record.html" method="get">
+   <div class="form-group">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required>
+
+   </div>
+
+   <div class="form-group">
+   <label for="password">Password:</label>
+
+    <input type="password" id="password" name="password" required pattern="[a-zA-Z0-9]{8,}"
+     title="Password must be at least 8 characters long and alphanumeric">
+   </div>
+   <div class="form-group">
+    <label for="passwordConfirmation">Confirm Password:</label>
+    <input type="password" id="passwordConfirmation" name="passwordConfirmation" required>
+   </div>
+   <div class="form-group">
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@byui.edu$"
+     title="Please enter a valid BYUI email address">
+   </div>
+   <div class="form-group">
+    <label for="pageRating">Page Rating:</label>
+    <input type="range" id="pageRating" name="pageRating" min="1" max="10" value="5" step="1"
+     oninput="output.value=pageRating.value">
+    <output id="output" for="pageRating">5</output>
+   </div>
+   <button type="submit">Submit</button>
+  </form>
+ </main>
+ <footer>
+ </footer>
+</body>
+
+</html>
