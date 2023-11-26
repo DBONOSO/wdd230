@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta name="author" content="David Bonoso">
+ <meta name="description" content="WDD 230 - Web Frontend Development">
+ <link rel="stylesheet" href="styles/normalize.css">
+ <link rel="stylesheet" href="styles/base.css">
+ <link rel="stylesheet" href="styles/larger.css">
+
+ <link rel="icon" href="images/favicon.ico">
+ <meta property="og:title" content=" Web Frontend Development Courses WDD 230" />
+ <meta property="og:type" content="image" />
+ <meta property="og:url" content="https://sanrafaelturismo.gov.ar/" />
+ <meta property="og:image"
+  content="https://www.sanrafael.gov.ar/wp-content/uploads/2020/10/WhatsApp-Image-2020-10-14-at-3.19.54-PM-1.jpeg" />
+ <title>David Bonoso - WDD 230 - Web Frontend Development</title>
+</head>
+
+<body>
+ <header class="top">
+
+  <h1>David Bonoso</h1>
+  <img src="images/me.jpg" style="width: 100%;" alt="David-Bonoso">
+
+  <nav>
+   <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+   <ul id="primaryNav">
+    <li><a href="index.html">Home </a></li>
+    <li><a href="#">Chamber</a></li>
+    <li><a href="#">Site Plan</a></li>
+    <li><a href="#">Survey</a></li>
+   </ul>
+  </nav>
+
+ </header>
+
+ <main id="assigment">
+
+
+  <div class="hero">
+   <picture>
+    <source media="(max-width: 500px)" srcset="images/hero-small">
+    <source media="(max-width: 500px)" srcset="images/hero-medium">
+    <img src="images/hero-large.webp" alt="Buenos Aires temple" width="100" height="750" loading="lazy">
+   </picture>
+
+   <div class="herolabel">
+    <p>Buenos Aires Temple</p>
+   </div>
+  </div>
+
+ </main>
+<section id="form-page">
+ <h2>Chamber of Commerce Membership Application</h2>
+ <hr>
+ <form action="thankyou.html" method="get">
+  <fieldset>
+   <legend>Applicant Information</legend>
+  <div class="form-group">
+   <label for="first name">First name:</label>
+   <input type="text" id="first name" name="first name" required>
+  </div>
+  <br>
+  <div>
+       <label for="last name">Last name:</label>
+       <input type="text" id="last name" name="last name" required>
+  </div>
+  <br>
+  <div class="form-group">
+   <label for="title or position">Title or position:</label>
+   <input type="title or position" id="title or position" name="title or position" required pattern="[a-zA-Z0-9]{8,}"
+    title="title or position must be at least 8 characters long and alphanumeric">
+  </div>
+  <br>
+  <div class="form-group">
+   <label for="email">Email:</label>
+   <input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@byui.edu$"
+    title="Please enter a valid BYUI email address">
+  </div>
+  <br>
+  <div class="form-group">
+   <label for="mobile phone number">Mobile phone number:</label>
+   <input type="number" id="mobile phone number" name="mobile phone number" required>
+  </div>
+  <br>
+    </fieldset>
+  <fieldset>
+   <legend>Business Information</legend>
+  
+  <div class="form-group">
+   <label for="business/organization's name">Business/organization's name:</label>
+   <input type="text" id="business/organization's name" name="business/organization's name" required>
+  </div>
+  <div class="form-group">
+  <br>
+   <label>Course Subject
+    <select name="Subject">
+          <option value="data">Gold Membership</option>
+               <option value="creative">Bronze Membership</option>
+               <option value="info">Silver Membership</option>
+     <option value="software">NP Membership is for non profit organizations and there is no fee</option>
+    </select>
+   </label>
+  </div>
+  <br>
+  <div class="form-group">
+   <label for="description">Business/organization's description:</label>
+   <input type="text" id="description" name="description" required>
+  </div>
+  <br>
+  <label> Timestamp <input type="datetime-local" name="completeDate"></label>
+  </fieldset>
+  <br>
+  <button type="submit">Submit</button>
+ </form>
+ </section>
+ <footer>
+  <div id="text_footer">
+   <p>©️ <span id="date2"></span> | David Bonoso | San Juan, Argentina</p>
+   <p>Last Update: <span id="date3"></span></p>
+  </div>
+ </footer>
+ <script src="scripts/getDates.js"></script>
+ <script src="scripts/burger.js"></script>
+
+
+</body>
+
+</html>
