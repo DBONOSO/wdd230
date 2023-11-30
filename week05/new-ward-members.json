@@ -1,0 +1,33 @@
+{
+  "familyName": "Jones",
+  "moveInDate": "2023-11-15",
+  "numberOfMembers": 5,
+  "visitedByBishopric": true,
+  "familyMembers": [
+    {
+      "name": "David Jones",
+      "gender": "Male",
+      "birthDate": "1975-08-12"
+    },
+    {
+      "name": "Sarah Jones",
+      "gender": "Female",
+      "birthDate": "1977-05-23"
+    },
+    {
+      "name": "Emily Jones",
+      "gender": "Female",
+      "birthDate": "2004-06-18"
+    },
+    {
+      "name": "Michael Jones",
+      "gender": "Male",
+      "birthDate": "2007-09-29"
+    },
+    {
+      "name": "Benjamin Jones",
+      "gender": "Male",
+      "birthDate": "2010-12-31"
+    }
+  ]
+}
