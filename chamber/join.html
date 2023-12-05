@@ -21,39 +21,32 @@
 </head>
 
 <body>
- <header class="top">
+ <header>
 
   <h1>David Bonoso</h1>
   <img src="images/me.jpg"  alt="David-Bonoso">
 
-  <nav>
-   <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
-   <ul id="primaryNav">
-    <li class="active"><a href="index.html">Home </a></li>
-    <li><a href="#">Chamber</a></li>
-    <li><a href="#">Site Plan</a></li>
-    <li><a href="#">Survey</a></li>
-   </ul>
-  </nav>
-
  </header>
-
- <main id="assigment">
-
-
-  <div class="hero">
-   <picture class="photo">
-    <source media="(max-width: 500px)" srcset="images/hero-small">
-    <source media="(max-width: 500px)" srcset="images/hero-medium">
-    <img id="valley" src="images/hero-large.webp" alt="Buenos Aires temple" width="100" height="750" loading="lazy">
-   </picture>
-
-   <div class="herolabel">
-    <p>Buenos Aires Temple</p>
-   </div>
+  <nav>
+    <button id="menu" title="Display/Hide Menu"></button>
+    <ul class="navigation">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="discover.html">Discover</a></li>
+      <li><a href="directory.html">Directory</a></li>
+      <li><a href="#">Join</a></li>
+    </ul>
+  </nav>
+  <div id="hero">
+    <img id="hero-box" src="images/buenos-aires-argentina-temple-lds-236979-wallpaper.jpg" alt="City of London">
+    <div class="button-box">
+      <a href="" class="join">Join The Chamber</a>
+      <div class="herolabel">
+      </div>
+    </div>
   </div>
 
- </main>
+ <main id="main-join benefits">
+<div class="space-form"></div>
 <section id="form-page">
  <h2>Chamber of Commerce Membership Application</h2>
  <hr>
@@ -70,44 +63,42 @@
        <input type="text" id="last name" name="last name" required>
   </div>
   <br>
-  <div class="form-group">
+  <div class="form-div">
    <label for="title or position">Title or position:</label>
    <input type="title or position" id="title or position" name="title or position" required pattern="[a-zA-Z0-9]{8,}"
     title="title or position must be at least 8 characters long and alphanumeric">
   </div>
   <br>
-  <div class="form-group">
+  <div class="form-div">
    <label for="email">Email:</label>
    <input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@byui.edu$"
     title="Please enter a valid BYUI email address">
   </div>
   <br>
-  <div class="form-group">
+  <div class="form-div">
    <label for="mobile phone number">Mobile phone number:</label>
    <input type="number" id="mobile phone number" name="mobile phone number" required>
   </div>
   <br>
     </fieldset>
   <fieldset>
-   <legend>Business Information</legend>
-  
-  <div class="form-group">
+   <legend>Business</legend>
    <label for="business/organization's name">Business/organization's name:</label>
    <input type="text" id="business/organization's name" name="business/organization's name" required>
   </div>
-  <div class="form-group">
+  <div class="form-div">
   <br>
    <label>Course Subject
     <select name="Subject">
           <option value="data">Gold Membership</option>
-               <option value="creative">Bronze Membership</option>
-               <option value="info">Silver Membership</option>
+          <option value="creative">Bronze Membership</option>
+          <option value="info">Silver Membership</option>
      <option value="software">NP Membership is for non profit organizations and there is no fee</option>
     </select>
    </label>
   </div>
   <br>
-  <div class="form-group">
+  <div class="form-div">
    <label for="description">Business/organization's description:</label>
    <input type="text" id="description" name="description" required>
   </div>
@@ -118,13 +109,14 @@
   <button type="submit">Submit</button>
  </form>
  </section>
+  </main>
  <footer>
-  <div id="text_footer">
-   <p>©️ <span id="date2"></span> | David Bonoso | San Juan, Argentina</p>
-   <p>Last Update: <span id="date3"></span></p>
-  </div>
+  <img src="images/logo.png" alt="Great Mountain chamber of commerce logo">
+  <div class="author">&copy;<span id="field"></span> <a href="https://dbonoso.github.io/wdd230/PagesSubmitt/index"
+      target="name">David Bonoso</a> WDD 230 Project Last Updated: <span id="last-update-field"></span></div>
+  </footer>
  </footer>
- <script src="scripts/getDates.js"></script>
+ <script src="scripts/date.js"></script>
  <script src="scripts/burger.js"></script>
 
 

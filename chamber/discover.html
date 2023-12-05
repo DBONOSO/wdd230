@@ -7,9 +7,8 @@
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <meta name="author" content="David Bonoso">
  <meta name="description" content="WDD 230 - Web Frontend Development">
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+ <link rel="stylesheet" href="styles/normalize.css">
  <link rel="stylesheet" href="styles/base.css">
- <link rel="stylesheet" href="styles/medium.css">
  <link rel="stylesheet" href="styles/large.css">
  <link rel="icon" href="images/favicon.ico">
  <meta property="og:title" content="Web Frontend Development Courses WDD 230" />
@@ -22,61 +21,49 @@
 </head>
 
 <body>
- <header class="top">
+ <header class="discover-header">
   <img src="images/me.jpg" alt="David Bonoso">
   <h1>David Bonoso</h1>
-  <div class="header-date"><span id="currentDate"></span></div>
-  <nav>
-   <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
-   <ul id="primaryNav">
-    <li class="active"><a href="index.html">Home </a></li>
-    <li><a href="#">Chamber</a></li>
-    <li><a href="#">Site Plan</a></li>
-    <li><a href="#">Survey</a></li>
-   </ul>
-  </nav>
  </header>
-
-<main id="main-container">
- <div class="sidebar">
-  <h2>Sidebar Content</h2>
-  <p>Demographics:</p>
-  <ul>
-   <li>Population: 200,000</li>
-   <li>Median Age: 30.5 years</li>
-   <li>Income: $150.000 per month</li>
+<nav class="discover-nav">
+  <button id="menu" title="Display/Hide Menu"></button>
+  <ul class="navigation">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="#">Discover</a></li>
+    <li><a href="directory.html">Directory</a></li>
+    <li><a href="join.html">Join</a></li>
   </ul>
+</nav>
 
-  <p>Statistical Data:</p>
-  <ul>
-   <li>Unemployment Rate: 4.2%</li>
-   <li>Graduation Rate: 92%</li>
-  </ul>
+<main id="discover-main">
 
-  <p>Events:</p>
-  <ul>
-   <li>City Festival: July 15-17</li>
-   <li>Farmers Market: Every Saturday</li>
-   <li>Art Walk: First Friday of every month</li>
-  </ul>
-
-  <p>Attractions:</p>
-  <ul>
-   <li>Great Valley </li>
-   <li>Maze</li>
-
-  </ul>
-
-  <p>Calendar:</p>
-  <iframe
-   src="https://www.google.com/calendar/embed?showTitle=0&showPrint=0&showTabs=0&showCalendars=0&showTz=0&mode=AGENDA&height=300"
-   style="border:0" width="100%" height="300" frameborder="0" scrolling="no"></iframe>
- </div>
-
- <div class="main-content">
+  <section class="discover-section">
+    <h3>Welcome</h3>
+    <span class="visits"></span><br><br>
+  </section>
+  <section class="discover-section">
+    <h3>Local News</h3>
+    <p>
+    </p>
+  </section>
+  <section class="discover-section">
+    <h3>Demographics</h3>
+    <p>Population: 167.007 hab.</p>
+    <p>Population Density: 6.019/km2</p>
+    <p>Annual Population Change: 0.90%</p>
+    <p>Area: 31.235km2</p>
+    <p>Spanish is spoken by 99.9%</p>
+  </section>
+  <section class="discover-section">
+    <h3>Transportation</h3>
+    <p>Collective
+    </p>
+  </section>
+  </section>
+ <div class="discover-img">
   <h2>Local Photos</h2>
-
-  <div class="spotlight">
+<section id="discover-img">
+  <div>
    <picture>
     <source media="(min-width: 768px)" srcset="images/reyunos-large.webp">
     <source media="(min-width: 500px)" srcset="images/reyunos-medium.webp">
@@ -84,28 +71,24 @@
    </picture>
    <p>Reyunos </p>
    </div> 
-   <div class="photo-container">
     <picture>
      <source media="(min-width: 768px)" srcset="images/valley.png">
      <source media="(min-width: 500px)" srcset="images/valley.png">
      <img src="images/valley.png" alt="Photo 1" width="300" height="200" loading="lazy">
     </picture>
     <p>Great Valley </p>
-   </div><div class="photo-container">
     <picture>
      <source media="(min-width: 768px)" srcset="images/Laberinto Borges_ San Rafael. Mendoza. Mendoza. Mendoza.png">
      <source media="(min-width: 500px)" srcset="images/Laberinto Borges_ San Rafael. Mendoza. Mendoza. Mendoza.png">
      <img src="images/Laberinto Borges_ San Rafael. Mendoza. Mendoza. Mendoza.png" alt="Photo 1" width="300" height="200" loading="lazy">
     </picture>
     <p>Borges </p>
-   </div><div class="photo-container">
     <picture>
      <source media="(min-width: 768px)" srcset="images/Rotonda del Mapa.jpeg">
      <source media="(min-width: 500px)" srcset="images/Rotonda del Mapa.jpeg">
      <img src="images/Rotonda del Mapa.jpeg" alt="Photo 1" width="300" height="200" loading="lazy">
     </picture>
     <p>Caption for Photo </p>
-   </div>
   <picture>
     <source media="(min-width: 768px)" srcset="images/Trees in San Raf.jpeg">
     <source media="(min-width: 500px)" srcset="images/Trees in San Raf.jpeg">
@@ -119,7 +102,7 @@
   </picture>
   <p>Great Valley Mendoza</p>
 
-  </div>
+  </section>
  </main>
 
  <footer>

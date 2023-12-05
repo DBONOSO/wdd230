@@ -17,123 +17,60 @@
 </head>
 
 <body>
- <header class="top">
-  <div class="banner-one">
-    <div class="banner-box">
-      <div class="banner-text">"🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m."
-      </div>
-      <button class="banner-close" type="button">
-        <span >
-          ❌
-        </span>
-      </button>
-    </div>
-  </div>
-
-   <img src="images/logo.png" alt="Great Mountain chamber of commerce">
-   <h1>Great Mountain Chamber of Commerce</h1>
-
-  <div class="header-date"><span id="currentDate"></span></div>
+  <header>
+    <img src="images/logo.png" alt="logo of the chamber">
+    <h1>Great Montain Chamber</h1>
+  </header>
   <nav>
-    <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
-    <ul id="primaryNav">
-      <li class="active"><a href="index.html">Home </a></li>
+    <button id="menu" title="Display/Hide Menu"></button>
+    <ul class="navigation">
       <li><a href="#">Home</a></li>
-      <li><a href="#">page1</a></li>
-      <li><a href="#">page2</a></li>
-      <li><a href="#">page3</a></li>
+      <li><a href="discover.html">Discover</a></li>
+      <li><a href="directory.html">Directory</a></li>
+      <li><a href="join.html">Join</a></li>
     </ul>
   </nav>
-
-  </header>
-
-<main>
- <div class="hero">
-  <picture class="photo">
-    <source srcset="images/wdd230-org.jpg" media="(min-width: 1024px)">
-    <source srcset="images/wdd230-org1.jpg" media="(min-width: 800px)">
-    <source srcset="images/wdd230-org2.jpg" media="(min-width: 500px)">
-    <img id="valley" src="images/wdd230-org3.jpg" alt="Valley">
-
-  </picture>
-  <div class="join-buttom">Join</div>
-</div>
-
- <div class="event">
-  <h2>Bony's pizza</h2>
-  <h3>Since 1985, caught red handed </h3>
-  <br>
-  <h4>🍕Join us for the grand opening, this monday at 6:00 p.m.</h4>
-  <a href="https://www.instagram.com/bonys.pizza/?hl=es">more info...</a>
- </div>
- <div class="weather">
-  <h2>weather</h2>
-  <img src="images/wind.png" alt="weather">
-  <div>
-    Wind Chill:
-  <span id="chilling">50.2</span>
-    °F
-  <br>
-    Wind Speed:
-    <span id="speeding">4.0</span>
-    km/h
+  <div id="hero">
+    <img id="hero-box" src="images/Reyunos.jpeg" alt="Great Montain">
+    <div class="button-box">
+      <a href="" class="join">Join The Chamber</a>
+    </div>
   </div>
-  <span></span>
-</div>
-
- <div class="news">
-  <h2>News Release</h2>
+  <main>
+    <div class="section-grid">
+      <section class="card">
+        <h3>Events</h3>
+        <h4>Title</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam euismod lacus urna, auctor iaculis ante semper
+          vitae. Cras ut vehicula dui. Donec ullamcorper lectus id augue varius volutpat. Cras cursus quam vitae orci
+          ultricies mollis.</p>
+        <p><a>More info...</a></p>
+      </section>
+      <section class="card">
+        <h3>Weather</h3>
+        <br>
+        <p>Degrees °C</p>
+        <p>Humidity: </p>
+        <p>Wind Chill: </p>
+      </section>
+    </div>
+    <div class="adv-grid">
+  <h2>Bony's pizza</h2>
   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea sit provident, optio consectetur sint qui voluptatibus modi repudiandae maiores dicta maxime, fugit, excepturi itaque doloremque laudantium? Consectetur inventore impedit voluptates. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea sit provident, optio consectetur sint qui voluptatibus modi
   repudiandae maiores dicta maxime, fugit, excepturi itaque doloremque laudantium Consectetur inventore impedit
   voluptates.</p>
  </div>
- <div class="spotlights">
-  <div class="spotlight1">
-    <h2>Thankful Transport</h2>
-    <br>
-    <img src="images/transporte.png" alt="transport">
-    <br>
-    <p>"We have the solution to your transportation needs"</p>
-    <a href="https://www.ttservicios.com.ar/">Contact us</a>
-    <h4>Phone number: +54 9 260 440-6844</h4>
-  </div>
-  <div class="spotlight2">
-    <h2>Go back to school with "TIO FENIX"</h2>
-    <img src="images/TIO.jpg" alt="fenix">
-    <br>
-    <br>
-    <a href="https://tio-fenix-mayorista.negocio.site/">Buy for our website</a>
-    <br>
-    <p>Phone Number: +54 9 260 444-7367 </p>
-  </div>
-  <div class="spotlight3">
-    <h2>Shopping</h2>
-    <img src="images/shopping.png" alt="shopping">
-    <p>First & Only open-air urban shopping center in San Rafael</p>
-  </div>
- </div>
+ 
  <div class="join">
+  <p>Discover how to join the chamber of commerce and how it will benefit your organization!</p>
   <button id="join">Just Join us!</button>
-  <br>
-  <br>
-  <p>Discover how to join the chamber of commerce and how it will benefir your organization!</p>
  </div>
 
 </main>
 <footer>
  <img src="images/logo.png" alt="Great Mountain chamber of commerce logo">
- <div class="contact-info"><a href="https://www.google.com/maps/place/%C3%81lvarez+Condarco+756,+M5602HIM+San+Rafael,+Mendoza/@-34.6234485,-68.3465992,17z/data=!3m1!4b1!4m5!3m4!1s0x96790802bdaf3efb:0xb84827a307182740!8m2!3d-34.623576!4d-68.3444307" target="other">Alvarez Condardo 756, San Rafael Mendoza 5600</a><br>
-  Phone: +549-260469246|  | david.bonoso21@gmail.com</div>
  <div class="author">&copy;<span id="field"></span> <a href="https://dbonoso.github.io/wdd230/PagesSubmitt/index"
    target="name">David Bonoso</a> WDD 230 Project  Last Updated: <span id="last-update-field"></span></div>
-   <div class="social">
-    <a href="https://facebook.com" target="_blank">
-      <img class="social-logo" src="images/facebook-3-logo-svgrepo-com.png" alt="facebook icon">
-    </a>
-    <a href="linkeind.com" target="_blank">
-      <img class="social-logo" src="images/linkedin-svgrepo-com.png" alt="Linkedin icon">
-    </a>
-    </div>
 </footer>
 <script src="scripts/date.js"></script>
 <script src="scripts/burger.js"></script>

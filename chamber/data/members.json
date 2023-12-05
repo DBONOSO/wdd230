@@ -1,0 +1,12 @@
+{
+    "members" : [
+        {
+            "name" : "Pintureria Sesma", 
+            "address" : "Mitre 1550, San Rafael ", 
+            "phone" : "2604692465", 
+            "url" : "Sesma.com.ar", 
+            "icon" : "images/Sesma.png", 
+            "memblevel" : "Gold"
+        }
+    ]
+}
