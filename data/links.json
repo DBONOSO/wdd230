@@ -1,0 +1,89 @@
+{
+    "weeks": [
+        {
+            "week": "Week 01",
+            "links": [
+                {
+                    "url":"wek1/holygrail.html",
+                    "title":"Layout"
+                },
+                {
+                    "url":"wek1/media-query.html",
+                    "title":"Queries"
+                }
+            ]
+        },
+        {
+            "week": "Week 02",
+            "links": [
+                {
+                    "url":"week02/design.html",
+                    "title":"Design"
+                },
+                {
+                    "url":"https://codepen.io/David-Bonoso/pen/wvNJWza",
+                    "title":"Hamburger"
+                },
+                {
+                    "url":"week02/bom.html",
+                    "title":"bom"
+                }
+            ]
+        },
+        {
+            "week": "Week 03",
+            "links": [
+                {
+                    "url":"week03/lazyload.html",
+                    "title":"Lazy"
+                },
+                {
+                    "url":"week03/responsive-images.html",
+                    "title":"srcset"
+                },
+                {
+                    "url":"week03/bom.html",
+                    "title":"local"
+                }
+            ]
+        },
+        {
+            "week": "Week 04",
+            "links": [
+                {
+                    "url":"week04/images/combinator.png",
+                    "title":"Comb"
+                },
+                {
+                    "url":"week04/tablebuild.html",
+                    "title":"Table"
+                },
+                {
+                    "url":"form-start/index.html",
+                    "title":"Form"
+                }
+            ]
+        },
+        {
+            "week": "Week 05",
+            "links": [
+                {
+                    "url":"https://codepen.io/David-Bonoso/pen/bGzxZaz",
+                    "title":"Pseudo"
+                },
+                {
+                    "url":"week05/new-ward-members.json",
+                    "title":"JSON"
+                },
+                {
+                    "url":"week05/prophets.html",
+                    "title":"API"
+                },
+                {
+                    "url":"week05/weather.html",
+                    "title":"Weather"
+                }
+            ]
+        }
+    ]
+}

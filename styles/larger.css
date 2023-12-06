@@ -8,10 +8,6 @@
   font-size: 3.5rem;
  }
 
- nav {
-   padding: 1em;
- }
-
 
  header {
   text-align: center;
@@ -27,50 +23,26 @@
  }
 
 
-
- nav button {
-   display: none;
- }
-
- nav ul#primaryNav {
-   display: flex;
- }
-
-#primaryNav li a{
-  padding: 12px auto;
+#menu {
+  display: none;
 }
 
- .burger-flex {
-   width: 100%;
-   display: flex;
-   flex-direction: row;
-   justify-content: space-between;
- }
+.navigation {
+  flex-direction: row;
+  margin: 0;
+}
 
- .burger-flex ul:nth-child(1) {
-   display: flex;
-   flex-direction: row;
+.navigation li {
+  display: block;
+  flex: 1 1 100%;
+}
 
- }
-
- .burger-flex ul:nth-child(2) {
-   display: flex;
-   flex-direction: row;
-   width: 80px
- }
-
- .burger-flex li {
-   padding-left: 10px;
-   padding-right: 10px;
- }
-
- ul.social li {
-   padding: 0;
- }
-
- #burger-open,
- #burger-close {
-   display: none;
- }
+picture img {
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 90%;
+  height: auto;
+}
   
 }
+
