@@ -52,7 +52,6 @@ nav a:visited:active {
    padding: 3px 7px 6rgba(0, 0, 0, 0.3);
    background-color: white;
    color: #c09a9a;
-   position: absolute;
 }
 
 #menu::before {
