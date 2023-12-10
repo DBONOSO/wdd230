@@ -6,7 +6,7 @@
             "phone" : "2604692465", 
             "url" : "https://www.tripadvisor.com.ar/Tourism-g312782-San_Rafael_Province_of_Mendoza_Cuyo-Vacations.html", 
             "icon" : "images/logo.png", 
-            "memblevel" : "Gold"
+            "memblevel" : "silver"
         },
         {
             "name" : "Valle grande", 
@@ -14,7 +14,7 @@
             "phone" : "2604692465", 
             "url" : "https://www.sanrafael.gov.ar/", 
             "icon" : "images/Reyunos.jpeg", 
-            "memblevel" : "Gold"
+            "memblevel" : "gold"
         },
         {
             "name" : "Shopping", 
@@ -22,7 +22,7 @@
             "phone" : "2604692465", 
             "url" : "https://www.mendoza.edu.ar/dia-del-departamento-de-san-rafael/", 
             "icon" : "images/shopping.png", 
-            "memblevel" : "Gold"
+            "memblevel" : "silver"
         }
 
 

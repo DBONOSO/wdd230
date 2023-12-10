@@ -1,46 +1,52 @@
-let daynames = [
-	"Sunday",
-	"Monday",
-	"Tuesday",
-	"Wednesday",
-	"Thursday",
-	"Friday",
-	"Saturday"
+const dayNames = [
+  "Sunday",
+  "Monday",
+  "Tuesday",
+  "Wednesday",
+  "Thursday",
+  "Friday",
+  "Saturday",
 ];
-let months = [
-	"January",
-	"February",
-	"March",
-	"April",
-	"May",
-	"June",
-	"July",
-	"August",
-	"September",
-	"October",
-	"November",
-	"December"
+const monthNames = [
+  "January",
+  "February",
+  "March",
+  "April",
+  "May",
+  "June",
+  "July",
+  "August",
+  "September",
+  "October",
+  "November",
+  "December",
 ];
 
+// Get the last modified date
+const lastModifiedDate = new Date(document.lastModified);
 
-let d = new Date(document.lastModified);
-let dayName = daynames[d.getDay()];
-let monthName = months[d.getMonth()];
-let year = d.getFullYear();
-let fulldate = dayName + ", " + monthName + " " + d.getDate() + " " + year;
-document.getElementById("last-update-field").textContent = fulldate;
+// Format and display the last updated date
+const lastUpdatedDayName = dayNames[lastModifiedDate.getDay()];
+const lastUpdatedMonthName = monthNames[lastModifiedDate.getMonth()];
+const lastUpdatedYear = lastModifiedDate.getFullYear();
+const fullLastUpdatedDate = `${lastUpdatedDayName}, ${lastUpdatedMonthName} ${lastModifiedDate.getDate()}, ${lastUpdatedYear}`;
+document.getElementById("last-update-field").textContent = fullLastUpdatedDate;
 
-let k = new Date();
-let fullDate = new Intl.DateTimeFormat("en-UK", { dateStyle: "full" }).format(
-	k
-);
-document.getElementById("currentDate").textContent = fullDate;
+// Get the current date
+const currentDate = new Date();
 
+// Format and display the current date
+const formattedCurrentDate = new Intl.DateTimeFormat("en-UK", {
+  dateStyle: "full",
+}).format(currentDate);
+document.getElementById("currentDate").textContent = formattedCurrentDate;
 
-if (k.getDay() == 1 || k.getDay() == 2){
-  document.querySelector(".banner-one").classList.toggle("banner-shown");
+// Show banner on Mondays, Tuesdays, and Wednesdays
+if (currentDate.getDay() === 1 || currentDate.getDay() === 2 || currentDate.getDay() === 3) {
+  document.querySelector(".banner-one").classList.toggle(".banner-shown");
 
-  document.querySelector(".banner-close").addEventListener('click', function() {
-  this.closest(".banner-one").style.display = "none";
-});
-};
+  // Close banner on click
+  document.querySelector("·banner-close").addEventListener("click", function () {
+    this.closest(".banner-one").classList.toggle(".banner-shown");
+  });
+}

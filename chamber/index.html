@@ -17,8 +17,22 @@
 
 <body>
   <header>
-    <img src="images/logo.png" alt="logo of the chamber">
-    <h1>Great Montain Chamber</h1>
+    <banner>
+      <div class="banner-one">
+        <div class="banner-box">
+          <div class="banner-text">"🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m."
+          </div>
+          <button class="banner-close" type="button">
+            <span>
+              ❌
+            </span>
+          </button>
+        </div>
+      </div>
+      </banner>
+      <img src="images/logo.png" alt="logo of the chamber">
+      <h1>Great Montain Chamber</h1>
+      <div class="header-date"><span id="currentDate"></span></div>
   </header>
   <nav>
     <button id="menu" title="Display/Hide Menu"></button>
@@ -48,9 +62,8 @@
       <section class="card">
         <h3>Weather</h3>
         <br>
-        <p>Degrees °C</p>
-        <p>Humidity: </p>
-        <p>Wind Chill: </p>
+        <p class="center weather"><img id="weather-icon" src="#" alt="weather png"><span
+            id="current-temp"></span><span>&nbsp;-&nbsp;</span><span id="caption"></span></p>
       </section>
     </div>
     <div class="adv-grid">
@@ -73,6 +86,8 @@
 </footer>
 <script src="scripts/date.js"></script>
 <script src="scripts/burger.js"></script>
+<script src="scripts/spotlights.js"></script>
+<script src="scripts/weather.js"></script>
 
 </body>
 </html>
