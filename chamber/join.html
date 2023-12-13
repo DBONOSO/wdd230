@@ -9,14 +9,14 @@
  <meta name="description" content="WDD 230 - Web Frontend Development">
  <link rel="stylesheet" href="styles/normalize.css">
  <link rel="stylesheet" href="styles/base.css">
- <link rel="stylesheet" href="styles/larger.css">
+ <link rel="stylesheet" href="styles/large.css">
 
  <link rel="icon" href="images/favicon.ico">
- <meta property="og:title" content=" Web Frontend Development Courses WDD 230" />
- <meta property="og:type" content="image" />
- <meta property="og:url" content="https://sanrafaelturismo.gov.ar/" />
+ <meta property="og:title" content=" Web Frontend Development Courses WDD 230">
+ <meta property="og:type" content="image">
+ <meta property="og:url" content="https://sanrafaelturismo.gov.ar/">
  <meta property="og:image"
-  content="https://www.sanrafael.gov.ar/wp-content/uploads/2020/10/WhatsApp-Image-2020-10-14-at-3.19.54-PM-1.jpeg" />
+  content="https://www.sanrafael.gov.ar/wp-content/uploads/2020/10/WhatsApp-Image-2020-10-14-at-3.19.54-PM-1.jpeg">
  <title>David Bonoso - WDD 230 - Web Frontend Development</title>
 </head>
 
@@ -25,7 +25,7 @@
 
   <h1>Great Montain Chamber</h1>
   <img src="images/logo.png"  alt="David-Bonoso">
-
+        <div class="header-date"><span id="currentDate"></span></div>
  </header>
   <nav>
     <button id="menu" title="Display/Hide Menu"></button>
@@ -45,55 +45,49 @@
     </div>
   </div>
 
- <main id="main-join benefits">
+ <main id="main-benefit">
 <div class="space-form"></div>
 <section id="form-page">
  <h2>Chamber of Commerce Membership Application</h2>
  <hr>
  <form action="thankyou.html" method="get">
   <fieldset>
-   <legend>Applicant Information</legend>
-  <div class="form-group">
-   <label for="first name">First name:</label>
-   <input type="text" id="first name" name="first name" required>
-  </div>
-  <br>
-  <div>
-       <label for="last name">Last name:</label>
-       <input type="text" id="last name" name="last name" required>
-  </div>
-  <br>
-  <div class="form-div">
-   <label for="title or position">Title or position:</label>
-   <input type="title or position" id="title or position" name="title or position" required pattern="[a-zA-Z0-9]{8,}"
-    title="title or position must be at least 8 characters long and alphanumeric">
-  </div>
-  <br>
-  <div class="form-div">
+   <legend>
+    <h2>Applicant Information</h2>
+   </legend>
+  <div></div>
+   <label for="firsname">First name: <input type="text" id="firsname" name="firsname" required></label>
+  <br><br>
+       <label for="lasname">Last name:<input type="text" id="lasname" name="lasname" required></label>
+  <br><br>
+   <label for="title">Title or position:
+   <input type="text" id="title" name="titleorposition" required pattern="[a-zA-Z0-9]{8,}"
+    title="title or position must be at least 8 characters long and alphanumeric"></label>
+  <br><br>
    <label for="email">Email:</label>
    <input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@byui.edu$"
     title="Please enter a valid BYUI email address">
-  </div>
-  <br>
-  <div class="form-div">
-   <label for="mobile phone number">Mobile phone number:</label>
-   <input type="number" id="mobile phone number" name="mobile phone number" required>
-  </div>
-  <br>
+  <br><br>
+   <label for="number">Mobile phone number:
+   <input type="number" id="number" name="number" required></label>
+  <br><br>
     </fieldset>
+
   <fieldset>
-   <legend>Business</legend>
-   <label for="business/organization's name">Business/organization's name:</label>
-   <input type="text" id="business/organization's name" name="business/organization's name" required>
-  </div>
+   <legend>
+    <h2>Business</h2>
+    </legend>
+   <label for="business">Business/organization's name:
+   <input type="text" id="business" name="business" required></label>
+
   <div class="form-div">
   <br>
-   <label name="membership">Course Subject
+   <label name="Membership">Course Subject
     <select name="Subject">
-          <option value="data">Gold Membership</option>
-          <option value="creative">Bronze Membership</option>
-          <option value="info">Silver Membership</option>
-     <option value="software">NP Membership is for non profit organizations and there is no fee</option>
+          <option value="data" value="gold" onclick="gold()">Gold Membership</option>
+          <option value="creative" value="bronze" onclick="bronze()">Bronze Membership</option>
+          <option value="info" value="silver" onclick="silver()">Silver Membership</option>
+     <option value="software"  value="np" onclick="np()">NP Membership is for non profit organizations and there is no fee</option>
     </select>
    </label>
   </div>
@@ -110,17 +104,26 @@
  </form>
  </section>
 
+<div id="benefits">
+  <div id="benefits2">
+    <h3 id="benefits3">Your benefits</h3>
+    <p id="y1"> Press NP membership</p>
+    <p id="y2"> Press Bronze Membership</p>
+    <p id="y3"> Press Silver Membership</p>
+    <p id="y4"> Press Gold Membership</p>
+    <p id="y5"> <strong>See all your benefits</strong></p>
+  </div>
 </div>
+
   </main>
  <footer>
   <img src="images/logo.png" alt="Great Mountain chamber of commerce logo">
   <div class="author">&copy;<span id="field"></span> <a href="https://dbonoso.github.io/wdd230/PagesSubmitt/index"
       target="name">David Bonoso</a> WDD 230 Project Last Updated: <span id="last-update-field"></span></div>
   </footer>
- </footer>
  <script src="scripts/date.js"></script>
  <script src="scripts/burger.js"></script>
-<script src="scripts/level.js"></script>
+<script src="scripts/spotlights.js"></script>
 
 
 </body>

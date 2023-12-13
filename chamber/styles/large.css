@@ -43,7 +43,7 @@
   }
 
   main h2 {
-    text-align: left;
+    text-align: center;
   }
 
   .section-grid {
@@ -51,7 +51,14 @@
     grid-template-columns: 1fr 280px;
     grid-gap: 1.2rem;
   }
-
+  .adv-grid{
+    box-shadow: 0px 0px 9px 0px #000000;
+      border-radius: 5px;
+      border: 0;
+      padding-bottom: 5px;
+      margin-top: 20px;
+      margin-bottom: 10px;
+  }
   section {
     box-shadow: 0px 0px 9px 0px #000000;
     border-radius: 5px;
@@ -60,6 +67,15 @@
     margin-top: 20px;
     margin-bottom: 10px;
   }
+
+  #benefits{
+      box-shadow: 0px 0px 9px 0px #000000;
+      border-radius: 5px;
+      border: 0;
+      padding-bottom: 5px;
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
 
   section:nth-of-type(1) {
     grid-column: 1/2;
@@ -117,12 +133,12 @@
 
   #discover-main h2 {
     text-align: center;
-    color: white;
+    color: rgb(0, 0, 0);
   }
 
   .discover-section {
     grid-column: 1/2;
-    grid-row: 1;
+
   }
 
   .discover-section br.appear {
@@ -215,5 +231,13 @@
   .grid section {
     text-align: center;
     min-height: 190px;
+  }
+
+  #banner-one {
+      display: none;
+      background-color: #5b8094;
+      position:fixed;
+      margin-left: -100px;
+      text-align: justify;
   }
 }

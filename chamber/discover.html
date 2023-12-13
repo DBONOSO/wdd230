@@ -11,19 +11,20 @@
  <link rel="stylesheet" href="styles/base.css">
  <link rel="stylesheet" href="styles/large.css">
  <link rel="icon" href="images/favicon.ico">
- <meta property="og:title" content="Web Frontend Development Courses WDD 230" />
- <meta property="og:type" content="image" />
- <meta property="og:url" content="https://sanrafaelturismo.gov.ar/" />
+ <meta property="og:title" content="Web Frontend Development Courses WDD 230">
+ <meta property="og:type" content="image">
+ <meta property="og:url" content="https://sanrafaelturismo.gov.ar/">
  <meta property="og:image"
-  content="https://www.sanrafael.gov.ar/wp-content/uploads/2020/10/WhatsApp-Image-2020-10-14-at-3.19.54-PM-1.jpeg" />
+  content="https://www.sanrafael.gov.ar/wp-content/uploads/2020/10/WhatsApp-Image-2020-10-14-at-3.19.54-PM-1.jpeg">
 
  <title>David Bonoso - WDD 230 - Web Frontend Development</title>
 </head>
 
 <body>
- <header class="discover-header">
-  <img src="images/me.jpg" alt="David Bonoso">
-  <h1>David Bonoso</h1>
+  <header>
+<img src="images/logo.png" alt="logo of the chamber">
+<h1>Great Montain Chamber</h1>
+<div class="header-date"><span id="currentDate"></span></div>
  </header>
 <nav class="discover-nav">
   <button id="menu" title="Display/Hide Menu"></button>
@@ -39,11 +40,14 @@
 
   <section class="discover-section">
     <h3>Welcome</h3>
+    <h2>Page Visits:</h2>
     <span class="visits"></span><br><br>
   </section>
   <section class="discover-section">
     <h3>Local News</h3>
-    <p>
+    <p>Teens shop for $100,000 worth of holiday gifts for older SF kids
+    One by one, an army of elves raced into a San Rafael Target on Friday morning to help make sure Santa doesn't miss any
+    San Francisco families this holiday season.
     </p>
   </section>
   <section class="discover-section">
@@ -59,40 +63,49 @@
     <p>Collective
     </p>
   </section>
+  <section class="discover-section">
+    <h3>Ads for Grupo Alvarez</h3>
+    <p>Visit the museum
+    </p>
   </section>
- <div class="discover-img">
-  <h2>Local Photos</h2>
+  <section class="discover-section">
+    <h3>Ads for Tio Felix</h3>
+    <p>Come to the nice place to shared with for family
+    </p>
+  </section>
+
 <section id="discover-img">
+  <h2>Local Photos</h2>
   <div>
    <picture>
-    <source media="(min-width: 768px)" srcset="images/reyunos-large.webp">
-    <source media="(min-width: 500px)" srcset="images/reyunos-medium.webp">
-    <img src="images/Reyunos.webp" alt="Photo 1" width="300" height="200" loading="lazy">
+    <source media="(min-width: 736px)" srcset="images/reyunos-large.webp">
+    <source media="(min-width: 550px)" srcset="images/reyunos-medium.webp">
+    <img src="images/Reyunos.jpeg" alt="Photo 1" width="736" height="550" loading="lazy">
    </picture>
    <p>Reyunos </p>
    </div> 
     <picture>
      <source media="(min-width: 768px)" srcset="images/valley.png">
-     <source media="(min-width: 500px)" srcset="images/valley.png">
+     <source media="(min-width: 552px)" srcset="images/valley.png">
      <img src="images/valley.png" alt="Photo 1" width="300" height="200" loading="lazy">
     </picture>
     <p>Great Valley </p>
     <picture>
-     <source media="(min-width: 768px)" srcset="images/Laberinto Borges_ San Rafael. Mendoza. Mendoza. Mendoza.png">
-     <source media="(min-width: 500px)" srcset="images/Laberinto Borges_ San Rafael. Mendoza. Mendoza. Mendoza.png">
-     <img src="images/Laberinto Borges_ San Rafael. Mendoza. Mendoza. Mendoza.png" alt="Photo 1" width="300" height="200" loading="lazy">
+     <source media="(min-width: 768px)" srcset="images/BorgesSanRafael.png">
+     <source media="(min-width: 500px)" srcset="images/BorgesSanRafael.png">
+     <img src="images/BorgesSanRafael.png" alt="Photo 1" width="300" height="200" loading="lazy">
     </picture>
     <p>Borges </p>
     <picture>
-     <source media="(min-width: 768px)" srcset="images/Rotonda del Mapa.jpeg">
-     <source media="(min-width: 500px)" srcset="images/Rotonda del Mapa.jpeg">
-     <img src="images/Rotonda del Mapa.jpeg" alt="Photo 1" width="300" height="200" loading="lazy">
+     <source media="(min-width: 768px)" srcset="images/Rotonda.jpeg">
+     <source media="(min-width: 500px)" srcset="images/Rotonda.jpeg">
+     <img src="images/Rotonda.jpeg" alt="Photo 1" width="300" height="200" loading="lazy">
     </picture>
     <p>Caption for Photo </p>
   <picture>
-    <source media="(min-width: 768px)" srcset="images/Trees in San Raf.jpeg">
-    <source media="(min-width: 500px)" srcset="images/Trees in San Raf.jpeg">
-    <img src="images/Trees in San Raf.jpeg" alt="Photo 1" width="300" height="200" loading="lazy">
+    <source media="(min-width: 768px)" srcset="images/TreesSanRaf.jpeg">
+    <source media="(min-width: 500px)" srcset="images/TreesSanRaf.jpeg">
+    <img src="images/TreesSanRaf.jpeg" alt="Photo 1" width="300" height="200" loading="lazy">
   </picture>
   <p>Trees in San Rafael</p>
   <picture>
@@ -103,20 +116,21 @@
   <p>Great Valley Mendoza</p>
 
   </section>
+
  </main>
 
  <footer>
   <div class="contact-info">
    <p>©️ <span id="field"></span> | David Bonoso | San Juan, Argentina</p>
    <p>Last Update: <span id="last-update-field"></span></p>
-   <p>Page Visits: <span id="visit-count">0</span></p>
-  </div>
-  </div>
+    </div>
 
  </footer>
 
 <script src="scripts/date.js"></script>
 <script src="scripts/burger.js"></script>
+<script src="scripts/visits.js"></script>
+
 
 </body>
 
