@@ -49,8 +49,8 @@ nav a:visited:active {
 #menu {
    font-size: 1.5rem;
    border: 1px solid #1D4D72;
-   padding: 3px 7px 6rgba(0, 0, 0, 0.3);
-   background-color: white;
+   padding: 3px 7px ;
+   background-color: #ffffff;
    color: #c09a9a;
 }
 
