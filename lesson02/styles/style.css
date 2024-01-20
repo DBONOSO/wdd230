@@ -58,6 +58,39 @@ li {
  justify-content: space-between;
 }
 
+
+#header {
+ background-color: #3377aa;
+ color: white;
+ max-height: 15%;
+ text-align: center;
+ padding: 1% 0 1% 0;
+ border-radius: 2%;
+ margin-bottom: 3%;
+}
+
+header h1 {
+ font-size: 2.5rem;
+}
+
+header h2 {
+ font-size: 2rem;
+}
+
+section {
+ border: 1px solid black;
+ text-align: center;
+ grid-column-start: 1;
+ grid-column-end: 2;
+
+}
+
+img {
+ max-height: 40vh;
+}
+
+
+
 @media only screen and (min-width: 32.5em) {
  h1 {
   font-size: 2rem;
