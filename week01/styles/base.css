@@ -47,8 +47,6 @@ nav a {
 }
 
 nav a:hover {
- background-color: #5B7A3C;
- ;
  color: white;
 }
 
@@ -121,7 +119,7 @@ section {
 }
 
 .accent1 {
- background-color: #5B7A3C;
+ background-color: #ffffff;
 }
 
 .accent2 {
@@ -129,7 +127,7 @@ section {
 }
 
 .color {
- background-color: #5B7A3C;
+ background-color: #ffffff;
 }
 
 p,
