@@ -44,7 +44,11 @@
     </ul>
   </nav>
   <div id="hero">
-    <img id="hero-box" src="images/Reyunos.jpeg" alt="Great Montain">
+    <picture id="hero-box">
+      <source media="(max-width: 600px)" srcset="images/wdd230-org3.jpg">
+      <source media="(max-width: 800px)" srcset="images/wdd230-org2.jpg">
+      <img src="images/wdd230-org1.jpg" alt="Buenos Aires Temple" width="1250" height="700">
+    </picture>
     <div class="button-box">
       <a href="join.html" class="join">Join The Chamber</a>
     </div>
@@ -63,7 +67,7 @@
         <h3>Weather</h3>
         <br>
         <p class="center weather"><img id="weather-icon" src="#" alt="weather png"><span
-            id="current-temp"></span><span>&nbsp;-&nbsp;</span><span id="caption"></span></p>
+            id="current-temp"></span><span>&nbsp;-&nbsp;</span><span id="caption"></span><span id="wind-speed"></span></p>
       </section>
     </div>
     <div class="adv-grid">
@@ -82,7 +86,7 @@
 <script src="scripts/date.js"></script>
 <script src="scripts/burger.js"></script>
 <script src="scripts/spotlights.js"></script>
-<script src="scripts/weather.js"></script>
+<script src="scripts/windchill.js"></script>
 <script src="scripts/banner.js"></script>
  
 </body>
