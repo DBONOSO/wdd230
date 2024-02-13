@@ -156,7 +156,7 @@ main {
 }
 
 .hero {
-	margin: 10px auto;
+	margin: 10px ;
 	position: relative;
 	border: 1px solid rgba(0,0,0,.1);
 	height: 300px;

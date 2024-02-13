@@ -37,12 +37,20 @@
   flex: 1 1 100%;
 }
 
-picture img {
-  padding-left: 5%;
-  padding-right: 5%;
-  width: 90%;
-  height: auto;
-}
+        picture img {
+          padding-left: -5%;
+          padding-right: -5%;
+          width: 100%;
+          height: auto;
+        }
+    
+        .herolabel p {
+          font-size: clamp(1px, 4vw, 40px);
+        }
+    
+        .herolabel {
+          top: clamp(1px, 4vw, 40px);
+        }
   
 }
 
