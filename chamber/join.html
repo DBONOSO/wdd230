@@ -80,40 +80,36 @@
    <label for="business">Business/organization's name:
    <input type="text" id="business" name="business" required></label>
 
-  <div class="form-div">
-  <br>
-   <label name="Membership">Course Subject
-    <select name="Subject">
-          <option value="data" value="gold" onclick="gold()">Gold Membership</option>
-          <option value="creative" value="bronze" onclick="bronze()">Bronze Membership</option>
-          <option value="info" value="silver" onclick="silver()">Silver Membership</option>
-     <option value="software"  value="np" onclick="np()">NP Membership is for non profit organizations and there is no fee</option>
-    </select>
-   </label>
-  </div>
-  <br>
-  <div class="form-div">
-   <label for="description">Business/organization's description:</label>
-   <input type="text" id="description" name="description" required>
-  </div>
-  <br>
-  <label> Timestamp <input type="datetime-local" name="completeDate"></label>
+  <fieldset>
+    <legend>
+      <h2 style="margin-top: 0;">Establishment Info</h2>
+    </legend>
+    <div></div>
+    <div>Membership Level</div>
+    <label class="sbs"><input type="radio" name="membership" value="np" onclick="np()"> NP Membership</label>
+    <label class="sbs"><input type="radio" name="membership" value="bronze" onclick="bronze()"> Bronze Membership</label>
+    <label class="sbs"><input type="radio" name="membership" value="silver" onclick="silver()"> Silver Membership</label>
+    <label class="sbs"><input type="radio" name="membership" value="gold" onclick="gold()"> Gold Membership</label>
+  
+    <label class="top">Description: <textarea id="description" name="description"></textarea></label>
+    <input type="hidden" name="timestamp" id="timestamp">
   </fieldset>
-  <br>
-  <button type="submit">Submit</button>
- </form>
- </section>
-
-<div id="benefits">
-  <div id="benefits2">
-    <h3 id="benefits3">Your benefits</h3>
-    <p id="y1"> Press NP membership</p>
-    <p id="y2"> Press Bronze Membership</p>
-    <p id="y3"> Press Silver Membership</p>
-    <p id="y4"> Press Gold Membership</p>
-    <p id="y5"> <strong>See all your benefits</strong></p>
+  
+  <input type="submit" value="Join The Chamber" class="submitBtn">
+  </form>
   </div>
-</div>
+  <br>
+  </div>
+  <div id="space-benefits">
+    <div id="benefits-div">
+      <h2 style="margin-top: 0;" id="benefits-title">See Membership benefits!</h2>
+      <p id="b1"> Press NP membership</p>
+      <p id="b2"> Press Bronze Membership</p>
+      <p id="b3"> Press Silver Membership</p>
+      <p id="b4"> Press Gold Membership</p>
+      <p id="b5"> <strong>To see all of their benefits!</strong></p>
+    </div>
+  </div>
 
   </main>
  <footer>

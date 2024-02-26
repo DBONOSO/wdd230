@@ -356,7 +356,6 @@ hr {
 
 form fieldset {
   margin: 2rem 0;
-  border: 1px ;
   border-radius: 10px;
   padding: .5rem 2%;
 }
@@ -391,7 +390,6 @@ form label.sbs {
 
 form input.submitBtn {
   border: none;
-  color: white;
   border-radius: 1rem;
   padding: .75rem 1.5rem;
   margin: 0 0 2rem 2%;
@@ -404,7 +402,7 @@ form label.top input:required {
 
 form label.top input:required:valid {
   background-color: rgba(0, 0, 0, 0.1);
-  border-bottom: rgb(5, 147, 190) 4px solid;
+  border-bottom: rgb(20, 32, 36) 4px solid;
 }
 
 #benefits-div {

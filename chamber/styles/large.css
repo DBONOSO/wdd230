@@ -178,11 +178,6 @@
     margin-top: 680px;
   }
 
-  #space-benefits {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-  }
 
   #form-div {
     width: 300px;
@@ -190,17 +185,17 @@
   }
 
   main.benefits {
-    display: grid;
     grid-template-columns: 1fr 1fr;
   }
 
   div.benefits {
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex;
   }
 
   #benefits-div {
     width: 300px;
+    display:contents ;
   }
 
   h2#benefits-title {
