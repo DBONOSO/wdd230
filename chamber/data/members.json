@@ -23,6 +23,14 @@
             "url" : "https://www.mendoza.edu.ar/dia-del-departamento-de-san-rafael/", 
             "icon" : "images/shopping.png", 
             "memblevel" : "silver"
+        },
+        {
+            "name" : "Shopping", 
+            "address" : "Emilio civit 550, San Rafael ", 
+            "phone" : "2604692465", 
+            "url" : "https://www.mendoza.edu.ar/dia-del-departamento-de-san-rafael/", 
+            "icon" : "images/shopping.png", 
+            "memblevel" : "silver"
         }
 
 
