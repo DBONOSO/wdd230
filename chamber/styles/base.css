@@ -540,9 +540,10 @@ section.directory-section {
   margin-top: 0;
   margin-bottom: 10px;
   text-align: center;
-  color: var(--secondary-color);
+  color: rgb(0, 0, 0);
 }
 
 #show-h2 {
   display: none;
 }
+
