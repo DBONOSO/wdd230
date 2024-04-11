@@ -7,29 +7,88 @@
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <meta name="author" content="David Bonoso">
  <meta name="description" content="WDD 230 - Web Frontend Development">
- <link rel="stylesheet" href="styles/normalize.css">
  <link rel="stylesheet" href="styles/base.css">
- <link rel="stylesheet" href="styles/larger.css">
-
- <link rel="icon" href="favicon.ico">
- <meta property="og:title" content=" Web Frontend Development Courses WDD 230" />
- <meta property="og:type" content="image" />
+ <link rel="stylesheet" href="styles/large.css">
+ <title>Scoots</title>
+ <meta name="Description" content=" Home Page">
+ <meta name="author" content="David Bonoso">
+ <meta property="og:title" content="Home Page">
+ <meta property="og:type" content="Website">
  <meta property="og:url" content="https://github.com/DBONOSO/wdd230/blob/main/scoots/images/scoots_logo.png" />
  <meta property="og:image" content="https://github.com/DBONOSO/wdd230/blob/main/scoots/images/scoots_logo.png" />
-
 </head>
-
 <body>
  <header>
   <div class="heading">
-   <img class="scoots_logo" src="images/scoots_logo.png" alt="scoots_logo">
-   <h1 class="herotitle">Scoots</h1>
+   <img class="scoots_logo" src="images/scoots_logo.png" alt="logo">
+   <h1 class="herotitle"></h1>
    <div id="menu"></div>
-   <ul class="navigation">
-    <li><a href="#">Home</a></li>
-    <li><a href="https://github.com/DBONOSO/wdd230/scoots/rentals.html">Rentals</a></li>
-    <li><a href="https://github.com/DBONOSO/wdd230/scoots/reservations.html">Reservations</a></li>
-    <li><a href="https://github.com/DBONOSO/wdd230/scoots/contact.html">Contact</a></li>
-   </ul>
+   <nav class="navigation">
+    <a href="https://dbonoso.github.io/wdd230/scoots/index.html" title="H">Home</a>
+    <a href="https://dbonoso.github.io/wdd230/scoots/rentals.html" title="Home">Rentals</a>
+    <a href="https://dbonoso.github.io/wdd230/scoots/reservations.html" title="Rentals">Reservations</a>
+    <a href="https://dbonoso.github.io/wdd230/scoots/contact.html" title="Contact">Contact</a>
    </nav>
   </div>
+ </header>
+
+<main class="contact_main">
+
+ <div class="contact_info1">
+  <span class="con_us">Contact Us</span>
+  <p>Email: scoots@alquiler.mex</p>
+  <p>Phone: (+54-2604692465)</p>
+ </div>
+ <div class="form">
+  <label for="fname" class="req">First Name :</label>
+  <input name="fname" id="fname" type="text" required placeholder="Please enter your first name"
+   autocomplete="firstName" />
+
+  <label for="lname" class="req">Last Name :</label>
+  <input name="lname" id="lname" type="text" required placeholder="Please enter your last name"
+   autocomplete="lastName" />
+
+  <label for="email" class="req">Email :</label>
+  <input name="email" id="email" type="email" required placeholder="Required" />
+
+  <label for="mobilePhoneNumber" class="req">Mobile phone number :</label>
+  <input name="mobilePhoneNumber" id="mobilePhoneNumber" type="telephone" required pattern="[0-9]"
+   placeholder="Required" />
+
+  <label for="comments">Comments :</label>
+  <input name="comments" id="comments" type="text" placeholder="" />
+
+  <br><button type="submit">Submit</button>
+ </div>
+</main>
+
+
+
+   <footer>
+    <div>
+   
+     <h3>Scoots</h3>
+    </div>
+    <p class="con_us">Contact Us</p>
+    <div class="contact_info">
+     <h1>Location</h1>
+     <p>Cozumel, Quintana Roo, México</p>
+     <p>Email: scoots@alquiler.mex</p>
+     <p>Phone: (+54-2604692465)</p>
+    </div>
+    <div class="footer_content">
+     <p>©️ <span id="date2"></span> David Bonoso | San Juan, Argentina</p>
+     <p>Last Update: <span id="date3"></span></p>
+    </div>
+   
+   </footer>
+   <a href="https://www.facebook.com"><img class="facebook_icon" src="images/face_logo.webp"> alt="facebook"></a>
+   <a href="https://www.whatsapp.com"><img class="whatsapp_icon" src="images/wpps_logo.webp" alt="whatsapp"></a>
+   <script src="scripts/weather.js"></script>
+   <script src="scripts/getDates.js"></script>
+   <script src="scripts/hamburger.js"></script>
+   <script src="scripts/rentals.js"></script>
+   
+   </body>
+   
+   </html>
