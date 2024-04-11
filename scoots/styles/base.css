@@ -1,0 +1,292 @@
+.scoots_logo {
+ width: 130px;
+ height: auto;
+ border-radius: 50%;
+}
+
+.scoots_logo_small {
+ width: 80px;
+ height: auto;
+ border-radius: 50%;
+}
+
+
+.heading {
+ display: flex;
+ margin: auto;
+ padding: 10px;
+}
+
+.heading a {
+ margin: auto;
+ font-size: 35px;
+ text-decoration: none;
+ color: black;
+ padding: 10px;
+}
+
+.heading h1 {
+ margin: 10px;
+ font-size: 50px;
+ padding: 10px;
+ align-content: center;
+}
+
+.heading img {
+ margin: 10px;
+ padding: 10px;
+}
+
+.heading .navigation {
+ display: none;
+}
+
+.heroimage {
+ width: 100%;
+ padding: 5PX;
+}
+
+.hero {
+ background-size: cover;
+}
+
+.herowelcome {
+ position: absolute;
+ top: 350px;
+ left: 300px;
+ font-size: 70px;
+}
+
+
+
+
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+#menu {
+ display: block;
+ font-size: 1.5rem;
+
+ text-decoration: none;
+ padding: .5rem .75rem;
+ background-color: #000000;
+ color: white;
+ position: absolute;
+ top: 40px;
+ right: 20px;
+}
+
+#menu::before {
+ content: "☰";
+}
+
+#menu.open::before {
+ content: "X";
+}
+
+
+.weather_card {
+ margin: 5px;
+ padding: 5px;
+ font-size: 21px;
+ text-align: center;
+}
+
+#weather-icon {
+ width: 80px;
+}
+
+.motor_card {
+ margin: 5px;
+ padding: 5px;
+ display: flex;
+ text-align: center;
+ justify-content: center;
+ flex-wrap: wrap;
+}
+
+.motor_card img {
+ width: 250px;
+}
+
+.motor_card span {
+ padding: 5px;
+ margin: 5px;
+}
+
+
+.motor_card span a {
+ text-decoration: none;
+ color:black;
+}
+
+.rental_main {
+ text-align: left;
+
+}
+
+.rental_header {
+ text-align: center;
+}
+
+#cards {
+ display: flex;
+ flex-wrap: wrap;
+ padding: 5px;
+ margin: 10px;
+ font-size: 20px;
+}
+
+.reservations_main {
+ display: grid;
+ grid-template-columns: 1fr 420px 1fr;
+ margin-bottom: 50px;
+}
+
+.form {
+ padding: 10px;
+ margin: 5px;
+ display: block;
+ text-align: center;
+ grid-column: 2/3;
+ font-size: 22px;
+}
+
+label {
+ display: block;
+}
+
+input {
+ padding: 5px;
+ margin: 5px;
+ width: 270px;
+ margin-bottom: 10px;
+}
+
+select {
+ width: 210px;
+ padding: 5px;
+}
+
+#comments {
+ height: 80px;
+}
+
+button {
+ padding: 5px;
+}
+
+.contact_main {
+ display: grid;
+ grid-template-columns: 1fr 400px 1fr;
+ margin-bottom: 50px;
+}
+
+.map1,
+.map2 {
+ width: 500px;
+ height: 300px;
+ margin: 5px;
+ margin-bottom: 10px;
+}
+
+.contact_info1 {
+ grid-column: 2/3;
+ text-align: center;
+ padding: 10px;
+}
+
+.contact_info1 p {
+ font-size: 22px;
+}
+
+footer {
+ text-align: center;
+}
+
+footer p {
+ color: rgb(0, 0, 0);
+}
+
+.con_us {
+ font-size: 40px;
+ color: rgb(0, 0, 0);
+}
+
+.contact_info {
+ word-spacing: 5px;
+ line-height: 25px;
+}
+
+.contact_info p {
+ font-size: 18px;
+}
+
+
+
+.whatsapp_icon {
+ height: 90px;
+ position: fixed;
+ right: 20px;
+ bottom: 220px;
+}
+
+.whatsapp_icon:hover {
+ transition: .4s;
+ scale: 1.1;
+}
+
+.facebook_icon {
+ height: 90px;
+ position: fixed;
+ right: 20px;
+ bottom: 120px;
+}
+
+.facebook_icon:hover {
+ transition: .4s;
+ scale: 1.1;
+}
+
+.book_icon {
+ text-decoration: none;
+ color: #000000;
+ font-size: 25px;
+ text-align: center;
+ align-content: center;
+ height: 90px;
+ width: 90px;
+ position: fixed;
+ right: 20px;
+ bottom: 20px;
+ background-color: rgba(255, 255, 255, 0);
+}
+
+
+
+.map {
+ width: 100%;
+ height: auto;
+
+ padding: 8px;
+}
+
+.footer_content {
+ padding: 15px;
+ color: white;
+
+
+
+
+}
+
+.ref {
+ padding: 15px;
+ color: rgb(255, 255, 255);
+ background-color: #ffffff;
+ word-spacing: 2px;
+
+}

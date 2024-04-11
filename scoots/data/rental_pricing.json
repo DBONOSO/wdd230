@@ -1,0 +1,58 @@
+{
+    "rentals": [
+        {
+            "image": "https://github.com/DBONOSO/wdd230/scoots/images/Honda_Metro_Scooter.webp",
+            "name": "Honda Metro Scooter",
+            "maxPersons": "1",
+            "reservationHalfDay(3hrs)": "$20",
+            "reservationFullDay": "$30",
+            "walkInHalfDay(3hrs)": "$25",
+            "walkInFullDay": "$35"
+        },
+        {
+            "image": "https://github.com/DBONOSO/wdd230/scoots/images/Honda_Dio_Scooter.webp",
+            "name": "Honda Dio Scooter",
+            "maxPersons": "2",
+            "reservationHalfDay(3hrs)": "$30",
+            "reservationFullDay": "$40",
+            "walkInHalfDay(3hrs)": "$35",
+            "walkInFullDay": "$45"
+        },
+        {
+            "image": "https://github.com/DBONOSO/wdd230/scoots/images/Honda_PCX150_Scooter.webp",
+            "name": "Honda PCX150 Scooter",
+            "maxPersons": "2",
+            "reservationHalfDay": "$40",
+            "reservationFullDay": "$50",
+            "walkInHalfDay": "$45",
+            "walkInFullDay": "$55"
+        },
+        {
+            "image": "https://github.com/DBONOSO/wdd230/scoots/images/Honda_Pioneer_ATV.webp",
+            "name": "Honda Pioneer ",
+            "maxPersons": "4",
+            "reservationHalfDay": "$50",
+            "reservationFullDay": "$70",
+            "walkInHalfDay": "$60",
+            "walkInFullDay": "$80"
+        },
+        {
+            "image": "https://github.com/DBONOSO/wdd230/scoots/images/Jeep_Wrangler_4door.webp",
+            "name": "Jeep Wrangler 4 door ",
+            "maxPersons": "5",
+            "reservationHalfDay": "$70",
+            "reservationFullDay": "$100",
+            "walkInHalfDay": "$85",
+            "walkInFullDay": "$125"
+        },
+        {
+            "image": "https://github.com/DBONOSO/wdd230/scoots/images/Jeep_Wrangler_2door.webp",
+            "name": "Jeep Wrangler 2 door open",
+            "maxPersons": "4",
+            "reservationHalfDay": "$60",
+            "reservationFullDay": "$85",
+            "walkInHalfDay": "$70",
+            "walkInFullDay": "$90"
+        }
+    ]
+}
