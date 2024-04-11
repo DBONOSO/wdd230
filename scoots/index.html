@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta name="author" content="David Bonoso">
+ <meta name="description" content="WDD 230 - Web Frontend Development">
+ <link rel="stylesheet" href="styles/normalize.css">
+ <link rel="stylesheet" href="styles/base.css">
+ <link rel="stylesheet" href="styles/larger.css">
+
+ <link rel="icon" href="favicon.ico">
+ <meta property="og:title" content=" Web Frontend Development Courses WDD 230" />
+ <meta property="og:type" content="image" />
+ <meta property="og:url" content="https://github.com/DBONOSO/wdd230/blob/main/scoots/images/scoots_logo.png" />
+ <meta property="og:image" content="https://github.com/DBONOSO/wdd230/blob/main/scoots/images/scoots_logo.png" />
+
+</head>
+
+<body>
+ <header>
+  <div class="heading">
+   <img class="scoots_logo" src="images/scoots_logo.png" alt="scoots_logo">
+   <h1 class="herotitle">Scoots</h1>
+   <div id="menu"></div>
+   <ul class="navigation">
+    <li><a href="#">Home</a></li>
+    <li><a href="https://github.com/DBONOSO/wdd230/scoots/rentals.html">Rentals</a></li>
+    <li><a href="https://github.com/DBONOSO/wdd230/scoots/reservations.html">Reservations</a></li>
+    <li><a href="https://github.com/DBONOSO/wdd230/scoots/contact.html">Contact</a></li>
+   </ul>
+   </nav>
+  </div>
+  <picture class="hero_change">
+   <source srcset="images/conzumel_mex.webp" media="(min-width: 1300px)">
+   <source srcset="images/conzumel_mex.webp" media="(min-width: 900px)">
+   <source srcset="images/conzumel_mex.webp" media="(min-width: 600px)">
+   <img class="heroimage" src="images/conzumel_mex.webp" alt="landscape">
+  </picture>
+  <div class="hero">
+
+   <h1 class="herowelcome">This is Cozumel !</h1>
+  </div>
+ </header>
+ <main>
+  <div class="weather_card">
+   <p>Local weather</p>
+   <div>
+    <p>Temperature <span id="current-temp"></span></p>
+    <p>Humidity <span id="humidity"></span></p>
+    <figure>
+     <img id="weather-icon" src="" alt="">
+     <figcaption></figcaption>
+    </figure>
+   </div>
+  </div>
+  <div class="motor_card">
+   <h2>Bike</h2>
+      <span><a href=""><img src="images/Honda_Metro_Scooter.webp" alt="hondametro"><br>Metropolitan <br>1 person</a></span>
+   <span><a href=""><img src="images/Honda_Dio_Scooter.webp" alt="hondadio"><br>Honda Dio <br>2 person</a></span>
+   <span><a href=""><img src="images/Honda_PCX150_Scooter.webp" alt="hondaPCX150"><br>Honda PCX150 <br>2
+     person</a></span>
+     
+  </div>
+  <div class="motor_card">
+   <h2>Four wheels</h2>
+   <span><a href=""><img src="images/Honda_Pioneer_ATV.webp" alt="hondapioneer"><br>Honda Pioneer <br>4
+     person</a></span>
+   <span><a href=""><img src="images/Jeep_Wrangler_4door.webp" alt="jeepwrangler"><br>Jeep Wrangler 4 door with A/C<br>5
+     person</a></span>
+   <span><a href=""><img src="images/Jeep_Wrangler_2door.webp" alt="jeepwrangler"><br>Jeep Wrangler 2 door<br>4
+     person</a></span>
+  </div>
+ </main>
+ <footer>
+  <div>
+   <h1>¡Scoots!</h1>
+  </div>
+  <p class="con_us">Contact Us</p>
+  <div class="contact_info">
+   <h1>Location</h1>
+   <p>Cozumel, Quintana Roo, México</p>
+   <p>Email: scoots@alquiler.mex</p>
+   <p>Phone: (+54-2604692465)</p>
+  </div>
+  <div>
+   <iframe
+    src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d4075.083717645669!2d-86.9474518564259!3d20.511626690133117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjDCsDI5JzAyLjciTiA4NsKwNTQnNTQuOSJX!5e0!3m2!1ses-419!2sar!4v1712806950990!5m2!1ses-419!2sar"
+    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+  <div class="footer_content">
+   <p>©️ <span id="date2"></span> David Bonoso | San Juan, Argentina</p>
+   <p>Last Update: <span id="date3"></span></p>
+  </div>
+
+ </footer>
+ <a href="https://www.facebook.com" src="images/face_logo.wepb" alt="facebook"></a>
+ <a href="https://www.whatsapp.com" src="images/wpps_logo.webp" alt="whatsapp"></a>
+ <script src="scripts/weather.js"></script>
+ <script src="scripts/getDates.js"></script>
+ <script src="scripts/hamburger.js"></script>
+
+</body>
+
+</html>
